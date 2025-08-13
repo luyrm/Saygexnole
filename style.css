@@ -1,0 +1,94 @@
+*{
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #101010;
+  color: white;
+  user-select: none;
+}
+
+.logo a{
+  text-decoration: none;
+  animation: rainbow 3.5s linear infinite;
+}
+
+@keyframes rainbow {
+  0%   { color: red;    text-shadow: 0 0 20px red; }
+  25%  { color: yellow; text-shadow: 0 0 20px yellow; }
+  50%  { color: lime;   text-shadow: 0 0 20px lime; }
+  75%  { color: cyan;   text-shadow: 0 0 20px cyan; }
+  100% { color: red;    text-shadow: 0 0 20px red; }
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.nav-link ul{
+  display: flex;
+  margin: 15px 15px;
+  gap: 20px;
+}
+
+.nav-link ul li {
+  list-style: none;
+}
+
+.nav-link ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thinhhanhnole{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ddd{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  width: 450px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name{
+  font-family: Arial, sans-serif;
+  font-size: larger;
+}
+
+.title{
+  font-size: 0.9em;
+  color: gray;
+}

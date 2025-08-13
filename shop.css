@@ -1,0 +1,72 @@
+.cantext1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 20px;
+}
+
+.cantext1 p{
+  color: rgb(0, 255, 0);
+}
+
+.chiu2{
+  display: flex;
+  align-items: center;
+  margin: 20px 20px;
+  gap: 20px;
+  background-color: black;
+  padding: 20px;
+  width: auto;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+}
+
+.name p{
+  color: gray;
+  font-size: 0.8em;
+}
+
+.MuaBtn{
+  text-align: center;
+  color: white;
+  margin: 8px 6px;
+  padding: 3px;
+  width: 50px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.chiu2 img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover; /* Ảnh vừa khung */
+  border-radius: 100px; /* Bo góc nhẹ */
+}
+
+.dellbietnua{
+  display: flex;
+  margin: 5px 20px;
+}
+
+hr{
+  margin: 10px 10px;
+  border: 2px solid white;
+}
+
+.btn12{
+  padding: 8px 10px;
+  cursor: pointer;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  transition: 0.1s;
+  transform: ease-in-out 0.2;
+}
+
+.btn12:active{
+ color: #000;
+ background-color: white;
+}
