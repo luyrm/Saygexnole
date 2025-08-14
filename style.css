@@ -92,3 +92,10 @@ body{
   font-size: 0.9em;
   color: gray;
 }
+
+.cendedeter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rainbow 3.5s linear infinite;
+}
